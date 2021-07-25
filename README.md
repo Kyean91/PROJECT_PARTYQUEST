@@ -11,6 +11,6 @@
 
 - 2021/07/24
 1. aggregate 데이터의 party_size가 1인 Solo 게임의 경우 Player_name의 결측값을 채울 수 있으므로 해당 작업 수햄
-1.1. aggregate 데이터의 match_id와 team_placement 컬럼과 kill_deaths 데이터의 match_id와 killer_placement 변수를 각각 연결하여 aggregate 데이터의 player_name의 결측값을 채움
-1.2. 
-3. 수행한 내용 2
+2. aggregate 데이터의 match_id와 team_placement 컬럼과 kill_deaths 데이터의 match_id와 killer_placement 변수를 각각 연결하여 aggregate 데이터의 player_name의 결측값을 채움
+3. 
+4. 수행한 내용 2
