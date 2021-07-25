@@ -9,7 +9,7 @@
 4. kill_deaths 데이터의 각 컬럼별 결측치 비율을 확인 
 5. map 컬럼의 결측값은 다른 데이터와 연결되지 않아 결측치 대체가 어렵다 판단하여 제거
 
-- 2021/07/24
+- 2021/07/25
 1. aggregate 데이터의 party_size가 1인 Solo 게임의 경우 Player_name의 결측값을 채울 수 있으므로 해당 작업 수햄
 2. aggregate 데이터의 match_id와 team_placement 컬럼과 kill_deaths 데이터의 match_id와 killer_placement 변수를 각각 연결하여 aggregate 데이터의 player_name의 결측값을 채움
 3. 
