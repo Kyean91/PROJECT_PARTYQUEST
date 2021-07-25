@@ -15,7 +15,8 @@
 -> 다른 값들이 중복되어 결측값을 채우기 어려운 데이터가 발견되어 결측치를 채우기 어렵다 판단하여 차선책인 결측치 제거로 선회
 3. aggregate 데이터와 kill_deaths 데이터를 match_id와 player_name으로 merge하여 데이터를 하나로 연결
 4. kill이 없는 유저는 map 컬럼의 값이 NaN으로 입력되어 map 컬럼의 NaN 값을 채움
-5. party_size와 map별로 데이터를 나눔
+5. killed_by 컬럼을 재분류화함
+6. party_size와 map별로 데이터를 나눔
 
 질문 사항 
 1. 같은 게임에서 등수가 같은데 생존 시간이 다른 경우??
