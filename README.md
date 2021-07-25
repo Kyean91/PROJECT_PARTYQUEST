@@ -12,7 +12,7 @@
 - 2021/07/25
 1. aggregate 데이터의 party_size가 1인 Solo 게임의 경우 Player_name의 결측값을 채울 수 있으므로 해당 작업 수햄
 2. aggregate 데이터의 match_id와 team_placement 컬럼과 kill_deaths 데이터의 match_id와 killer_placement 변수를 각각 연결하여 kill_deaths 데이터의 killer_name의 결측값을 채움
--> 다른 값들이 중복되어 결측값을 채우기 어려운 데이터가 발견되어 결측치를 채우기 어렵다 판단 차선책인 결측치 제거로 선회
+-> 다른 값들이 중복되어 결측값을 채우기 어려운 데이터가 발견되어 결측치를 채우기 어렵다 판단하여 차선책인 결측치 제거로 선회
 
 질문 사항 
 1. 같은 게임에서 등수가 같은데 생존 시간이 다른 경우??
