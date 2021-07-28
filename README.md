@@ -49,7 +49,8 @@
 5. 플레이어별 KDA를 구함
 6. player_dmg - player_kills의 상관관계를 확인
 7. player_survive_time - team_placement의 상관관계를 확인
-8. player_dist_walk - team_placement, player_dist_ride - team_placement의 상관관계를 확인 후 player_dist_walk + player_dist_ride와 team_placement의 상관관계 
+8. player_dist_walk - team_placement, player_dist_ride - team_placement의 상관관계를 확인 후 player_dist_walk + player_dist_ride와 team_placement의 상관관계 확인
+
 
 <분석을 수햄함에 있어서 어려운 점>
 1. 데이터의 크기가 너무 커서 Data Load와 전처리시 SQL을 사용하기가 어려웠음
