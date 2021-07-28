@@ -30,6 +30,17 @@
 1. 같은 게임에서 등수가 같은데 생존 시간이 다른 경우?? -> 개수가 많지 않고 특별한 의미를 갖지 않는다고 생각되면 drop
 2. 같은 시간대에 같은 아이디에 다른 매치 id가 있는 경우?? -> 개수가 많지 않고 특별한 의미를 갖지 않는다고 생각되면 drop
 
+- 2021/07/27
+- Outlier 기준 선정
+1. game_size : solo - 80, duo - 40, squad - 20 미만의 데이터는 Outlier로 판단(최대 game_size의 80%)
+2. player_dise_walk, player_dist_ride : ride - 30km, walk - 10km 초과의 데이터는 Outlier로 판단 (맵의 크기가 8km x 8km임을 고려)
+3. player_dmg : 3000 초과의 데이터는 Outlier로 판단(프로 게이머들도 30킬 이상은 드문 경우 임을 고려)
+4. player_kills : 30 초과의 데이터는 Outlier로 판단(프로 게이머들도 30킬 이상은 드문 경우 임을 고려)
+5. player_survive_time : 1700 초과의 데이터는 Outlier로 판단(게임 내에서 살아남을 수 있는 최대 시간의 +1~2분으로 설정)
+6. player_dbno : 11 초과의 데이터는 Outlier로 판단(12번째 기절부터는 2초 내에 팀원의 도움이 있어야 살 수 있음을 고려)
+7. killer와 victim의 거리 : 400m 초과 데이터는 Outlier로 판단(게임 내에서의 탄도학이 적용되고, 고배율 조준경이 있지 않는 이상 사람이 볼 수 없음을 고려)
+-> 제거하지 않고 Outlier 데이터셋을 만들어 따로 보관(추후 Anomaly Detection에 활용할 )
+
 분석을 수햄함에 있어서 어려운 점
 1. 데이터의 크기가 너무 커서 Data Load와 전처리시 SQL을 사용하기가 어려웠음
 2. Python으로 Data를 Load하여도 Kernel이 자주 죽는 문제가 발생
