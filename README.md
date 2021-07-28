@@ -42,8 +42,14 @@
 -> Outlier들은 제거하지 않고 데이터셋을 만들어 따로 보관(추후 Anomaly Detection에 활용할 )
 
 - 2021/07/28
-1. 수행1
-2. 수행2
+1. Outlier를 분리하여 정상적인 Dataset과 Outlier Dataset으로 나눔
+2. Eragel 데이터와 Miramar 데이터를 다시 하나의 데이터로 합침
+3. 각 플레이어의 Tear를 정하기 위해 tear_score계산((28 - team_placement) * 0.5 + kills * 2 + assists * 2)
+4. Tear_score를 기반으로 플레이어들의 Tear를 나눔
+5. 플레이어별 KDA를 구함
+6. player_dmg - player_kills의 상관관계를 확인
+7. player_survive_time - team_placement의 상관관계를 확인
+8. player_dist_walk - team_placement, player_dist_ride - team_placement의 상관관계를 확인 후 player_dist_walk + player_dist_ride와 team_placement의 상관관계 
 
 <분석을 수햄함에 있어서 어려운 점>
 1. 데이터의 크기가 너무 커서 Data Load와 전처리시 SQL을 사용하기가 어려웠음
