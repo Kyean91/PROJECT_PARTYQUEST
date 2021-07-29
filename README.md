@@ -52,8 +52,12 @@
 8. player_dist_walk - team_placement, player_dist_ride - team_placement의 상관관계를 확인 후 player_dist_walk + player_dist_ride와 team_placement의 상관관계 확인
 
 - 2021/07/29
-1. 수행 1
-2. 수행 2
+1. tear_score가 0에 많이 몰려있는 것을 발견 -> 해결 방안 고민해보기
+2. player_dmg ~ player_kills의 상관계수는 solo/duo/squad 모두 0.9이상 - > kills 변수 제거 가능
+3. player_survive_time ~ team_placement의 상관계수 solo/duo/squad 모두 -0.8이하 -> 
+4. player_dist_walk ~ team_placement
+5. player_dist_ride ~ team_placement
+6. 플레이어 별 match 수가 5 이상인 사람들만 뽑아내서 데이터의 크기를 줄이기로 결정
 
 
 <분석을 수햄함에 있어서 어려운 점>
