@@ -36,7 +36,7 @@
 2. player_dise_walk, player_dist_ride : ride - 30km, walk - 10km 초과의 데이터는 Outlier로 판단 (맵의 크기가 8km x 8km임을 고려)
 3. player_dmg : 3000 초과의 데이터는 Outlier로 판단(프로 게이머들도 30킬 이상은 드문 경우 임을 고려)
 4. player_kills : 30 초과의 데이터는 Outlier로 판단(프로 게이머들도 30킬 이상은 드문 경우 임을 고려)
-5. player_survive_time : 1700 초과의 데이터는 Outlier로 판단(게임 내에서 살아남을 수 있는 최대 시간의 +1~2분으로 설정)
+5. player_survive_time : 1900 초과의 데이터는 Outlier로 판단(게임 내에서 살아남을 수 있는 최대 시간의 +1~2분으로 설정)
 6. player_dbno : 11 초과의 데이터는 Outlier로 판단(12번째 기절부터는 2초 내에 팀원의 도움이 있어야 살 수 있음을 고려)
 7. killer와 victim의 거리 : 400m 초과 데이터는 Outlier로 판단(게임 내에서의 탄도학이 적용되고, 고배율 조준경이 있지 않는 이상 사람이 볼 수 없음을 고려)   
 -> Outlier들은 제거하지 않고 데이터셋을 만들어 따로 보관(추후 Anomaly Detection에 활용할 )
