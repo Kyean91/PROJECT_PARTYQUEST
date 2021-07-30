@@ -63,6 +63,10 @@
 1. tear_score의 계산식을 log(team_placement + player_kills * 2 + player_assists * 2)로 변경
 2. 변경된 tear_score를 기준으로 6, 6.75, 7.5, 8.25, 9를 기준으로 티어를 나눔
 
+- 2021/07/30
+1. 할 일 1
+2. 할 일 2
+
 <분석을 수햄함에 있어서 어려운 점>
 1. 데이터의 크기가 너무 커서 Data Load와 전처리시 SQL을 사용하기가 어려웠음
 2. Python으로 Data를 Load하여도 Kernel이 자주 죽는 문제가 발생
