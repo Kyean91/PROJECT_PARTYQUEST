@@ -1,5 +1,6 @@
 # PROJECT_PARTYQUEST
 - 데이터 출처 : https://www.kaggle.com/skihikingkevin/pubg-match-deaths
+- ppt : https://docs.google.com/presentation/d/1LUgDXSVUjDZIDOAXutJuVq1u1657mZeELgxXAKny0sI/edit?usp=sharing
 - 분석 목표 : 유저들의 게임 데이터로 각 티어간의 특징의 차이를 도출하여 다음 티어로 나아가기 위한 방향성을 조언
 ---
 - 2021/07/23
