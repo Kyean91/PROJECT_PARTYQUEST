@@ -1,5 +1,5 @@
 # PROJECT_PARTYQUEST
-- 데이터 출처 : 'Data based on NEXON DEVELOPERS', https://developers.nexon.com/fifaonline4
+- 데이터 출처 : https://developers.nexon.com/fifaonline4 'Data based on NEXON DEVELOPERS'
 - 발표자료(ppt) : 
 - 분석 목표 : 
 ---
