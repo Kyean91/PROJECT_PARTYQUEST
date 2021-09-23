@@ -10,5 +10,5 @@
 이후 JSON 파일을 변환하여 데이터를 ID별 최대 100경기의 'match_detail', 'shoot', 'shoot_detail', 'pass_info', 'defence', 'player' 데이터를 아래의 Schema형식으로 변환\
 ![schema](https://user-images.githubusercontent.com/85550229/133791568-86057dd7-93e2-4c15-b885-b104cc43f6ea.png)
 => SQL을 활용하여 데이터 전처리를 수행하고, 전처리가 끝난 데이터를 Python으로 불러와서 분석을 수행할 예정
--  
+-  2021/09/18 ~ : API크롤링을 통한 데이터 수집 
 
